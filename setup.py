@@ -18,6 +18,7 @@ setup(
             "MisfitPreprocessor = semeio.workflows.misfit_preprocessor.misfit_preprocessor",  # noqa
             "CorrelatedObsScaling = semeio.workflows.correlated_observations_scaling.cos",  # noqa
             "CsvExport2Job = semeio.workflows.csv_export2.csv_export2",
+            "LocalisationConfigJob = semeio.workflows.localisation.local_config_scalar",  # noqa
             "AhmAnalysisJob = semeio.workflows.ahm_analysis.ahmanalysis",
         ],
         "console_scripts": [
